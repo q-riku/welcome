@@ -9,7 +9,7 @@ function type() {
     i++;
     setTimeout(type, 150);
 }
-type();
+setTimeout(type, 600);
 
 //title animation
 function move() {
@@ -17,13 +17,13 @@ function move() {
         top: '-100px'
     }, 600);
 }
-setTimeout(move, 2000);
+setTimeout(move, 2600);
 
 //button animation
 function show() {
     $('section').fadeIn(600);
 }
-setTimeout(show, 2600);
+setTimeout(show, 3200);
 
 //button effects
 const buttons = document.querySelectorAll('.button');
